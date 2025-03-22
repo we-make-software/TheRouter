@@ -4,5 +4,6 @@
 #include "../TheMaintainer/TheMaintainer.h"
 struct TheRouter{
 
-}
+};
 #endif
+#define GetRouterTM()TM(TheRouter,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
