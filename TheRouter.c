@@ -1,8 +1,7 @@
 #include "../TheRouter/TheRouter.h"
 static void TMStart(void){
     GetRouterTM();
-    ///TheRouterAPI;
-
+    //TheRouterTM
 }
 static void TMEnd(void){
  
