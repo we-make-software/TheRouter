@@ -5,5 +5,5 @@
 struct TheRouter{
 
 };
-#endif
 #define GetRouterTM()TM(TheRouter,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
+#endif
