@@ -12,23 +12,16 @@ obj-m := TheRouter.o
 all:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
 
-log:
-	dmesg -w
-
-clear:
-	dmesg -c
-
 clean:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) clean
 
 start:
 	make all
 	sudo insmod TheRouter.ko
-	make log
-	
+
 stop:
 	sudo rmmod TheRouter.ko
-	make clear
+	make clean
 
 commit:
 	@if ! git diff-index --quiet HEAD; then \
