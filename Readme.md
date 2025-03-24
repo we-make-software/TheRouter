@@ -9,6 +9,15 @@
       <strong>Role:</strong> TheMaintainer
     </td>
   </tr>
+    <tr style="border: none;">
+    <td>
+      <img src="https://github.com/we-make-software/TheNetworkAdapter/blob/main/profile.png" alt="Worker Profile" width="150" 
+           style="border: 3px solid black; border-radius: 10px; padding: 5px;">
+    </td>
+    <td>
+      <strong>Role:</strong>TheNetworkAdapter
+    </td>
+  </tr>
   <tr style="border: none;">
     <td>
       <img src="profile.png" alt="Worker Profile" width="150" 
